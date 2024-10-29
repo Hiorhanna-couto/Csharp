@@ -55,6 +55,6 @@ Console.WriteLine($"Quantidade de Mulheres : {QtdMulher}");
 Console.WriteLine($"Quantidade de Homens : {QtdHomem}");
 Console.WriteLine($"TOTAL DE ENTREVISTADOS : {QtdHomem + QtdMulher}");
 Console.WriteLine($"Quantidade de pessoas que gostam de esporte: {QtdEsporte}");
-Console.WriteLine($"Quantidade de pessoas que nao de  gostam de esporte: {QtdNaoEsporte}");
+Console.WriteLine($"Quantidade de pessoas que nao  gostam de esporte: {QtdNaoEsporte}");
 Console.WriteLine($"Percentual de pessoas que gostam de esportes: {QtdNaoEsporte}%");
 
