@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace PilaresPOO.Classes.Aprendizagem
 {
-    public class Moto : Veiculo
+    public class Descritivo
     {
-        public int qtdPortas;
+        
     }
 }

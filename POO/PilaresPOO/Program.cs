@@ -1,34 +1,15 @@
-﻿using PilaresPOO.Classes.Aprendizagem;
+﻿using PilaresPOO;
+ Console.Clear();
 
-Aluno joao = new Aluno();
-joao.Nome ="joao";
+ContaCorrente ctnana = new ContaCorrente();
+ctnana.Titular = "^.^Hiorhanna Couto Santana(✿◡‿◡)";
+ctnana.Deposita (50000000f);
 
-Console.WriteLine($"{ joao.Nome} Nasceu com { joao.idade} anos");
+Console.WriteLine($"Titular da Conta: {ctnana.Titular}");
+Console.WriteLine($"Saldo da Conta: {ctnana.getSaldo()}");
 
-Professor sam = new Professor(123321);
-sam.Nome ="Samanta";
-sam.idade = 22;
+float valorSacado = ctnana.Sacar ( 6.118920f);
 
-Aluno felipeHolan = new Aluno();
+Console.WriteLine($"Valor do Saque : {valorSacado}");
+Console.WriteLine($"Novo Saldo : {ctnana.getSaldo()}");
 
-felipeHolan.Nome = "Felipe Holan couto santana";
-felipeHolan.idade = 2;
-felipeHolan.Matricula = 13378352;
-felipeHolan.curso = "Dev";
-felipeHolan.media = 7.9f;
-
-
-Console.WriteLine($"Curso :  { felipeHolan.curso}");
-Console.WriteLine($"  PROFESSOS : {sam.Nome}");
-Console.WriteLine($"    IDADE DA Professora {sam.idade}");
-Console.WriteLine($"        Identificacao do Professor : { sam.NiF}");
-
-
-
-
-
-Console.WriteLine($"Aluno : { felipeHolan.Nome}");
-Console.WriteLine($" idade : { felipeHolan.idade}");
-Console.WriteLine($"Matricula : { felipeHolan.Matricula}");
-Console.WriteLine($"Curso :  { felipeHolan.curso}");
-Console.WriteLine($"Media :  { felipeHolan.media}");

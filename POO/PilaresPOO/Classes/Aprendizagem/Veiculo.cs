@@ -5,8 +5,26 @@ using System.Threading.Tasks;
 
 namespace PilaresPOO.Classes.Aprendizagem
 {
-    public class Veiculo
+    public  abstract  class Veiculo
     {
-        
+        public string? marca {get; set ;}
+
+        public string? modelo { get ; set;}
+
+       public string? cor {get ; set ;}
+
+       public int  potencia { get ; set ;}
+
+       public int qtdPassageiro {get ; set ;}
+
+     public void ligar (){
+
+Console.WriteLine($"carro ligado");
+
+
+
+     }
+
+
     }
 }

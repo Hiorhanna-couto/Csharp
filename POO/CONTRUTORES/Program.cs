@@ -14,10 +14,9 @@ Aluno2 hiorhannaCouto = new Aluno2 ("Hiorhanna Couto ");
 Aluno2 daniCritina = new Aluno2 ("Daniella critina");
 daniCritina.CPF = 537;
 
-
-
-
-
+Aluno2 spadaMen = new Aluno2("Herik Spada",56525);
+Console.WriteLine(spadaMen.CPF);
+Console.WriteLine(spadaMen.Nome);
 
 
 
